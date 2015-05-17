@@ -9,7 +9,7 @@
   "scripts": {
     "start": "ember server",
     "build": "ember build",
-    "test": "ember try:testall"
+    "test": "./node_modules/mocha/bin/mocha node_tests/**/*-test.js"
   },
   "repository": "",
   "engines": {
@@ -32,13 +32,20 @@
     "ember-disable-proxy-controllers": "^0.7.0",
     "ember-export-application-global": "^1.0.2",
     "ember-disable-prototype-extensions": "^1.0.0",
-    "ember-try": "0.0.4"
+    "ember-try": "0.0.4",
+    "express": "^4.8.5",
+    "glob": "^4.0.5",
+    "mocha": "^2.0.1",
+    "chai": "^1.10.0",
+    "chai-as-promised": "^4.1.1"
   },
   "keywords": [
     "ember-addon"
   ],
   "dependencies": {
-    "ember-cli-babel": "^5.0.0"
+    "ember-cli-babel": "^5.0.0",
+    "chalk": "^0.5.1",
+    "core-object": "0.0.2"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
