@@ -17,13 +17,13 @@ describe('PackageTaggingAdapter', function() {
     });
   });
 
-  describe('#tagName', function() {
+  describe('#getTagName', function() {
     it('returns a tag name based on current package version', function() {
       var revisionTagger = new PackageTaggingAdapter({
         packageJsonFile: '../node_tests/unit/lib/package.json'
       });
 
-      expect(revisionTagger.tagName()).to.eq('1-2-3');
+      expect(revisionTagger.getTagName()).to.eq('1-2-3');
     });
   });
 });
