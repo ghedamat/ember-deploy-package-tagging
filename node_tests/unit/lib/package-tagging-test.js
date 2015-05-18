@@ -23,7 +23,7 @@ describe('PackageTaggingAdapter', function() {
         packageJsonFile: '../node_tests/unit/lib/package.json'
       });
 
-      expect(revisionTagger.getTagName()).to.eq('1-2-3');
+      expect(revisionTagger.getTagName()).to.eq(PACKAGE_JSON_VERSION);
     });
   });
 });
