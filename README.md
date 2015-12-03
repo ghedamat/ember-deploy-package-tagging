@@ -1,4 +1,5 @@
-# Ember-deploy-package-tagging
+# Ember-deploy-package-tagging [![](https://ember-cli-deploy.github.io/ember-cli-deploy-version-badges/plugins/ember-deploy-package-tagging.svg)](http://ember-cli-deploy.github.io/ember-cli-deploy-version-badges/)
+
 
 This README outlines the details of collaborating on this Ember addon.
 
